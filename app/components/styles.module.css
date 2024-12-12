@@ -1,0 +1,21 @@
+/* INLINE STYLES */
+
+.mypic-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.mypic {
+    height: auto;
+    border-radius: 50%;
+    animation: floating 9s linear infinite;
+}
+
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0); /* Original position */
+    }
+    50% {
+        transform: translateY(-5px); /* Move slightly up */
+    }
+}

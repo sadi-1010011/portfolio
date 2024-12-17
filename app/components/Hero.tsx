@@ -31,11 +31,11 @@ function animatedReaction() {
     >
       <div className="text-center">
         <div className="mypic-wrapper  flex items-center justify-center h-auto">
-          <Image priority id="mypic" src={Sadiq} alt="profile" onClick={ animatedReaction } width="50" height="50" className={`w-1/3 h-auto rounded-full mb-2 ${styles.mypic}`} />
+          <Image priority id="mypic" src={Sadiq} alt="profile" onClick={ animatedReaction } width="500" height="500" className={`w-1/3 h-auto rounded-full mb-2 ${styles.mypic}`} />
         </div>
         {/* <Image src={} /> */}
         <motion.h1 
-          className="text-6xl font-bold mb-4"
+          className="text-4xl font-bold mb-4"
           initial={{ y: -50 }}
           animate={{ y: 0 }}
           transition={{ delay: 0.2, type: 'spring', stiffness: 120 }}

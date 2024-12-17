@@ -50,7 +50,7 @@ export default function Projects() {
               }}
               whileHover={{ y: -10 }}
             >
-              <Image src={project.image} alt={project.title} width={300} height={200} className="w-full" />
+              <Image src={project.image} alt={project.title} width={500} height={500} className="w-full h-auto" />
               <div className="p-6">
                 <h3 className="font-bold text-xl mb-2 text-card-foreground">{project.title}</h3>
                 <p className="text-muted-foreground mb-4">{project.description}</p>
